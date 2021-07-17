@@ -1,0 +1,33 @@
+@media screen and (max-width: 1200px) {
+  .card-component {
+    margin: 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card-component {
+    margin: 0rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card-component {
+    text-align: center;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    margin: 5rem 2rem;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .card-component__content p {
+    width: 100%;
+  }
+  .card-component__img img {
+    border-radius: 5px 5px 0px 0px;
+  }
+  .stats {
+    flex-direction: column;
+    & > li {
+      padding: 1.5rem;
+    }
+  }
+}

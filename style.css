@@ -124,13 +124,13 @@ body {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .card-component {
     margin: 0rem;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   .card-component {
     text-align: center;
     -webkit-box-orient: vertical;
@@ -139,7 +139,7 @@ body {
             flex-direction: column;
     -ms-flex-flow: column-reverse;
         flex-flow: column-reverse;
-    margin: 5rem 2rem;
+    margin: 5rem 4rem;
     border-radius: 0px 0px 5px 5px;
   }
   .card-component__content p {
@@ -147,6 +147,8 @@ body {
   }
   .card-component__img img {
     border-radius: 5px 5px 0px 0px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .stats {
     -webkit-box-orient: vertical;

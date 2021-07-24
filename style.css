@@ -50,14 +50,14 @@ body {
   padding: 3rem;
 }
 
-.card-component__content > h2 {
+.card-component__content > h1 {
   font-family: "Inter", sans-serif;
   line-height: 1.2;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-.card-component__content > h2 > span {
+.card-component__content > h1 > span {
   color: #aa5cdb;
 }
 
@@ -122,11 +122,23 @@ body {
   .card-component {
     margin: 5rem;
   }
+  .card-component__content,
+  .card-component__img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
 }
 
 @media screen and (max-width: 950px) {
   .card-component {
     margin: 0rem;
+  }
+  .card-component__content,
+  .card-component__img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
 }
 

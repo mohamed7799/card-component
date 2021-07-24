@@ -2,11 +2,19 @@
   .card-component {
     margin: 5rem;
   }
+  .card-component__content,
+  .card-component__img {
+    flex: 1;
+  }
 }
 
 @media screen and (max-width: 950px) {
   .card-component {
     margin: 0rem;
+  }
+  .card-component__content,
+  .card-component__img {
+    flex: 1;
   }
 }
 
